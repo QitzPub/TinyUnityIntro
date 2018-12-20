@@ -39,14 +39,14 @@
         "Children": [{
             "Item": {
                 "Name": "TinyExport/BLDKTiny/html5/development/bin/entities.js",
-                "Size": 26217,
-                "CompressedSize": 3981
+                "Size": 28945,
+                "CompressedSize": 4357
             },
             "Children": [{
                 "Item": {
                     "Name": "GameScene",
-                    "Size": 16801,
-                    "CompressedSize": 3041
+                    "Size": 19521,
+                    "CompressedSize": 3410
                 }
             }, {
                 "Item": {
@@ -75,8 +75,8 @@
             }, {
                 "Item": {
                     "Name": "Ground",
-                    "Size": 3284,
-                    "CompressedSize": 753
+                    "Size": 3292,
+                    "CompressedSize": 762
                 }
             }]
         }, {

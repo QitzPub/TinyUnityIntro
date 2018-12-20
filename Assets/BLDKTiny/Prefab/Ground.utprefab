@@ -90,9 +90,9 @@
             "color": {
                 "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
                 "Properties": {
-                    "r": 1,
+                    "r": 0,
                     "g": 1,
-                    "b": 1,
+                    "b": 0.1044993,
                     "a": 1
                 }
             }

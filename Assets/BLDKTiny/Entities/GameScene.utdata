@@ -7,12 +7,15 @@
     "Entities": [
         { "$TypeId": 9, "Id": "79d450ce95ab4300b399c99efea5e3b9", "Name": "Camera" },
         { "$TypeId": 9, "Id": "fe4e83ee25c24b05ae0a113af453e2fc", "Name": "ShootPoint" },
-        { "$TypeId": 9, "Id": "799fa7d7635540b48bb092a084802ca1", "Name": "Ground" },
-        { "$TypeId": 9, "Id": "fa83cacec22a4cf8843770c9c669bbc7", "Name": "GroundingHitBox" },
-        { "$TypeId": 9, "Id": "b8d4693ea26740618123c3a7a77ba568", "Name": "ClimbingHitBox" },
+        { "$TypeId": 9, "Id": "eb1595895def4c069f4d4d18b064569c", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "9aaca60502804a56bb97d1b67320bee1", "Name": "GroundingHitBox" },
+        { "$TypeId": 9, "Id": "e9a2c08eb1aa48e1b07c0f782b19cdb6", "Name": "ClimbingHitBox" },
         { "$TypeId": 9, "Id": "5ba5c66846f4426e930ad60dc7f447a5", "Name": "Ground" },
         { "$TypeId": 9, "Id": "bf7c69663ac1461f9ffaefc43ba63815", "Name": "GroundingHitBox" },
         { "$TypeId": 9, "Id": "a571dec1ec1e423eb55aafe0cb2a62ba", "Name": "ClimbingHitBox" },
+        { "$TypeId": 9, "Id": "799fa7d7635540b48bb092a084802ca1", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "fa83cacec22a4cf8843770c9c669bbc7", "Name": "GroundingHitBox" },
+        { "$TypeId": 9, "Id": "b8d4693ea26740618123c3a7a77ba568", "Name": "ClimbingHitBox" },
         { "$TypeId": 9, "Id": "322ac22c41764248a42871d4518e51ee", "Name": "Ground" },
         { "$TypeId": 9, "Id": "ec08bd70960b420eb1868c14fbcbab8a", "Name": "GroundingHitBox" },
         { "$TypeId": 9, "Id": "fffc7f3bca104d06b869da17fa5aba14", "Name": "ClimbingHitBox" },
@@ -22,20 +25,21 @@
         { "$TypeId": 9, "Id": "dda5b21b60fe4251b41fb85b09b02255", "Name": "PrinceSpawner" }
     ],
     "PrefabInstances": [
-        { "$TypeId": 13, "Id": "984bccc4b3e44bd3875a1c9bd399478c", "Name": "Ground" },
+        { "$TypeId": 13, "Id": "9e05a0f6fe184387b0ebd154a3cc9597", "Name": "Ground" },
         { "$TypeId": 13, "Id": "139c106518294314844b6371af4adadf", "Name": "Ground" },
+        { "$TypeId": 13, "Id": "984bccc4b3e44bd3875a1c9bd399478c", "Name": "Ground" },
         { "$TypeId": 13, "Id": "9db4b0e8d88c42aeac479ee3a3e13fd4", "Name": "Ground" }
     ]
 },
 {
     "$TypeId": 12,
-    "Id": "984bccc4b3e44bd3875a1c9bd399478c",
+    "Id": "9e05a0f6fe184387b0ebd154a3cc9597",
     "Name": "Ground",
     "Source": { "Id": "b868619c425442fcaa141109aed518a5", "Name": "Entity" },
     "Entities": [
-        { "$TypeId": 9, "Id": "799fa7d7635540b48bb092a084802ca1", "Name": "Ground" },
-        { "$TypeId": 9, "Id": "fa83cacec22a4cf8843770c9c669bbc7", "Name": "GroundingHitBox" },
-        { "$TypeId": 9, "Id": "b8d4693ea26740618123c3a7a77ba568", "Name": "ClimbingHitBox" }
+        { "$TypeId": 9, "Id": "eb1595895def4c069f4d4d18b064569c", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "9aaca60502804a56bb97d1b67320bee1", "Name": "GroundingHitBox" },
+        { "$TypeId": 9, "Id": "e9a2c08eb1aa48e1b07c0f782b19cdb6", "Name": "ClimbingHitBox" }
     ]
 },
 {
@@ -47,6 +51,17 @@
         { "$TypeId": 9, "Id": "5ba5c66846f4426e930ad60dc7f447a5", "Name": "Ground" },
         { "$TypeId": 9, "Id": "bf7c69663ac1461f9ffaefc43ba63815", "Name": "GroundingHitBox" },
         { "$TypeId": 9, "Id": "a571dec1ec1e423eb55aafe0cb2a62ba", "Name": "ClimbingHitBox" }
+    ]
+},
+{
+    "$TypeId": 12,
+    "Id": "984bccc4b3e44bd3875a1c9bd399478c",
+    "Name": "Ground",
+    "Source": { "Id": "b868619c425442fcaa141109aed518a5", "Name": "Entity" },
+    "Entities": [
+        { "$TypeId": 9, "Id": "799fa7d7635540b48bb092a084802ca1", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "fa83cacec22a4cf8843770c9c669bbc7", "Name": "GroundingHitBox" },
+        { "$TypeId": 9, "Id": "b8d4693ea26740618123c3a7a77ba568", "Name": "ClimbingHitBox" }
     ]
 },
 {
@@ -106,7 +121,10 @@
     "Static": false,
     "Layer": 0,
     "Components": [{
-        "Type": { "Id": "f96560fa51fc4f6f8dd6b31d7cbed743", "Name": "ShootPoint" }
+        "Type": { "Id": "f96560fa51fc4f6f8dd6b31d7cbed743", "Name": "ShootPoint" },
+        "Properties": {
+            "shoots": 100
+        }
     }, {
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
     }, {
@@ -115,7 +133,7 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": -3.56,
+                    "x": -6.74,
                     "y": -1.27
                 }
             }
@@ -126,7 +144,7 @@
 },
 {
     "$TypeId": 5,
-    "Id": "799fa7d7635540b48bb092a084802ca1",
+    "Id": "eb1595895def4c069f4d4d18b064569c",
     "Name": "Ground",
     "Enabled": true,
     "Static": false,
@@ -159,18 +177,18 @@
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.y",
             "TypeCode": 13,
-            "Value": -2.32
+            "Value": -3
         }, {
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.x",
             "TypeCode": 13,
-            "Value": 2.82
+            "Value": -3
         }]
     }
 },
 {
     "$TypeId": 5,
-    "Id": "fa83cacec22a4cf8843770c9c669bbc7",
+    "Id": "9aaca60502804a56bb97d1b67320bee1",
     "Name": "GroundingHitBox",
     "Enabled": true,
     "Static": false,
@@ -183,7 +201,7 @@
 },
 {
     "$TypeId": 5,
-    "Id": "b8d4693ea26740618123c3a7a77ba568",
+    "Id": "e9a2c08eb1aa48e1b07c0f782b19cdb6",
     "Name": "ClimbingHitBox",
     "Enabled": true,
     "Static": false,
@@ -229,12 +247,12 @@
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.y",
             "TypeCode": 13,
-            "Value": -3.52
+            "Value": -3
         }, {
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.x",
             "TypeCode": 13,
-            "Value": -0.64
+            "Value": 0
         }]
     }
 },
@@ -266,6 +284,76 @@
 },
 {
     "$TypeId": 5,
+    "Id": "799fa7d7635540b48bb092a084802ca1",
+    "Name": "Ground",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [],
+    "Instance": {
+        "Source": { "$TypeId": 9, "Id": "7bf7d30610d34651b708d013c821e2cc", "Name": "Ground" },
+        "EntityModificationFlags": 0,
+        "Modifications": [{
+            "Target": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+            "Path": "box.x",
+            "TypeCode": 13,
+            "Value": 0
+        }, {
+            "Target": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+            "Path": "box.y",
+            "TypeCode": 13,
+            "Value": 0
+        }, {
+            "Target": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+            "Path": "box.width",
+            "TypeCode": 13,
+            "Value": 0
+        }, {
+            "Target": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+            "Path": "box.height",
+            "TypeCode": 13,
+            "Value": 0
+        }, {
+            "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+            "Path": "position.y",
+            "TypeCode": 13,
+            "Value": -3
+        }, {
+            "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+            "Path": "position.x",
+            "TypeCode": 13,
+            "Value": 3
+        }]
+    }
+},
+{
+    "$TypeId": 5,
+    "Id": "fa83cacec22a4cf8843770c9c669bbc7",
+    "Name": "GroundingHitBox",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [],
+    "Instance": {
+        "Source": { "$TypeId": 9, "Id": "9422d815566d48c7b204145f57c0bf24", "Name": "GroundingHitBox" },
+        "EntityModificationFlags": 0
+    }
+},
+{
+    "$TypeId": 5,
+    "Id": "b8d4693ea26740618123c3a7a77ba568",
+    "Name": "ClimbingHitBox",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [],
+    "Instance": {
+        "Source": { "$TypeId": 9, "Id": "905885eddfc9415d96bd73e4ae603639", "Name": "ClimbingHitBox" },
+        "EntityModificationFlags": 0
+    }
+},
+{
+    "$TypeId": 5,
     "Id": "322ac22c41764248a42871d4518e51ee",
     "Name": "Ground",
     "Enabled": true,
@@ -279,7 +367,7 @@
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.y",
             "TypeCode": 13,
-            "Value": -0.31
+            "Value": -3
         }, {
             "Target": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
             "Path": "box.x",
@@ -304,7 +392,7 @@
             "Target": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
             "Path": "position.x",
             "TypeCode": 13,
-            "Value": 6.74
+            "Value": 6
         }]
     }
 },
@@ -338,7 +426,7 @@
     "$TypeId": 5,
     "Id": "d81b5bfdf9f3428cabadd61522193604",
     "Name": "Goal",
-    "Enabled": true,
+    "Enabled": false,
     "Static": false,
     "Layer": 0,
     "Components": [{
@@ -382,7 +470,7 @@
     "$TypeId": 5,
     "Id": "bf3137461f4c47b9a23875c823df9484",
     "Name": "Canvas",
-    "Enabled": true,
+    "Enabled": false,
     "Static": false,
     "Layer": 0,
     "Components": [{
@@ -481,7 +569,7 @@
     "$TypeId": 5,
     "Id": "dda5b21b60fe4251b41fb85b09b02255",
     "Name": "PrinceSpawner",
-    "Enabled": true,
+    "Enabled": false,
     "Static": false,
     "Layer": 0,
     "Components": [{

@@ -1,0 +1,115 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/BLDKTiny/html5/development/bin/runtime.js",
+                "Size": 6022497,
+                "CompressedSize": 776520
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 345,
+                "CompressedSize": 0
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/BLDKTiny/html5/development/bin/entities.js",
+                "Size": 26217,
+                "CompressedSize": 3981
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "GameScene",
+                    "Size": 16801,
+                    "CompressedSize": 3041
+                }
+            }, {
+                "Item": {
+                    "Name": "Level0",
+                    "Size": 103,
+                    "CompressedSize": 97
+                }
+            }, {
+                "Item": {
+                    "Name": "PlantEntities",
+                    "Size": 3069,
+                    "CompressedSize": 715
+                }
+            }, {
+                "Item": {
+                    "Name": "PrinceEntities",
+                    "Size": 1406,
+                    "CompressedSize": 510
+                }
+            }, {
+                "Item": {
+                    "Name": "ShootEntities",
+                    "Size": 1483,
+                    "CompressedSize": 528
+                }
+            }, {
+                "Item": {
+                    "Name": "Ground",
+                    "Size": 3284,
+                    "CompressedSize": 753
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/BLDKTiny/html5/development/bin/bindings.js",
+                "Size": 132660,
+                "CompressedSize": 10970
+            }
+        }, {
+            "Item": {
+                "Name": "Linked Code Files",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment3/TinyExport/BLDKTiny/html5/development/ScriptAssemblies/tsc-emit.js",
+                    "Size": 17521,
+                    "CompressedSize": 3247
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/BLDKTiny/html5/development/bin/main.js",
+                "Size": 7358,
+                "CompressedSize": 1617
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/BLDKTiny/html5/development/bin/wsclient.js",
+                "Size": 9391,
+                "CompressedSize": 2619
+            }
+        }]
+    }]
+}

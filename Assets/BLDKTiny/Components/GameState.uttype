@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "88846f3ea1a14043939337a8d87e4658",
+    "Name": "GameState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "7512bdea26af4cb5bdda3ccde8c1b782",
+        "Name": "state",
+        "FieldType": { "Id": "4b6ffe9801c7428b9066a0a2a50326ba", "Name": "GameStateEnum" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "88846f3ea1a14043939337a8d87e4658", "Name": "GameState" }
+    }
+}]

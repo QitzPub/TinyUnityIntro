@@ -1,0 +1,161 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/SimpleInput/html5/release/bin/runtime.js",
+                "Size": 851684,
+                "CompressedSize": 167860
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 3916,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/MySimpleInput/Textures/AkaneRunning.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "025ac14b8c5ee48b99545f6bf376e85e", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/AkaneRunning.jpg",
+                    "Size": 5688,
+                    "CompressedSize": 4218,
+                    "Object": { "$TypeId": 10, "Guid": "025ac14b8c5ee48b99545f6bf376e85e", "FileId": 2800000, "Type": 3 }
+                }
+            }, {
+                "Item": {
+                    "Name": "TinyExport/Assets/AkaneRunning_a.png",
+                    "Size": 952,
+                    "CompressedSize": 761,
+                    "Object": { "$TypeId": 10, "Guid": "025ac14b8c5ee48b99545f6bf376e85e", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/MySimpleInput/Sounds/voice1.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "ddbb893615c534589b6621c0fff9cda1", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/voice1.wav",
+                    "Size": 127876,
+                    "CompressedSize": 25120,
+                    "Object": { "$TypeId": 10, "Guid": "ddbb893615c534589b6621c0fff9cda1", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/MySimpleInput/Sounds/voice2.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "68681276dc6664a8394fdee3c4fe0821", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/voice2.wav",
+                    "Size": 145360,
+                    "CompressedSize": 38227,
+                    "Object": { "$TypeId": 10, "Guid": "68681276dc6664a8394fdee3c4fe0821", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/MySimpleInput/Sounds/voice3.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "fcc8399469e9c48b596b8057f17da15a", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/voice3.wav",
+                    "Size": 121976,
+                    "CompressedSize": 20800,
+                    "Object": { "$TypeId": 10, "Guid": "fcc8399469e9c48b596b8057f17da15a", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/MySimpleInput/Sounds/voice4.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "4a915026d9451489aa91596ddba11305", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/voice4.wav",
+                    "Size": 121772,
+                    "CompressedSize": 20634,
+                    "Object": { "$TypeId": 10, "Guid": "4a915026d9451489aa91596ddba11305", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/SimpleInput/html5/release/bin/entities.js",
+                "Size": 5965,
+                "CompressedSize": 1428
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "NewScene",
+                    "Size": 5886,
+                    "CompressedSize": 1351
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/SimpleInput/html5/release/bin/bindings.js",
+                "Size": 81900,
+                "CompressedSize": 6721
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/SimpleInput/html5/release/bin/code.js",
+                "Size": 9478,
+                "CompressedSize": 2362
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/TinyExport/SimpleInput/html5/release/ScriptAssemblies/tsc-emit.js",
+                    "Size": 9398,
+                    "CompressedSize": 2291
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/SimpleInput/html5/release/bin/main.js",
+                "Size": 2897,
+                "CompressedSize": 870
+            }
+        }]
+    }]
+}

@@ -1,0 +1,88 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "CollisionSystem",
+            "QualifiedName": "game.CollisionSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/PhysicsDemo/Scripts/CollisionSystem.ts",
+                "Line": 6,
+                "Character": 17
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.Physics2D.ColliderContacts",
+                "ut.Core2D.Sprite2DRenderer"
+            ]
+        },
+        {
+            "Name": "MoveSystem",
+            "QualifiedName": "game.MoveSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/PhysicsDemo/Scripts/MoveSystem.ts",
+                "Line": 6,
+                "Character": 17
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Move",
+                "ut.Physics2D.Velocity2D"
+            ]
+        }
+    ],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 51,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 179,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 721,
+            "Steps": 11
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 38,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 6,
+            "Steps": 2
+        }
+    ],
+    "SourceFiles": [
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/PhysicsDemo/Scripts/CollisionSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/PhysicsDemo/Scripts/MoveSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "52191e8f1f144ef2232f08b64c5159fe",
+    "GeneratedAt": "Wed Dec 05 2018 18:34:51 GMT+0900 (JST)"
+}

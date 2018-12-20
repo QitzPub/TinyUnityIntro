@@ -1,0 +1,54 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "333278654cda4162a2e6b69544e54142",
+    "Name": "ShootEntities",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "4f447c64ef474897a690eaadfb0dc571", "Name": "Shoot" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "4f447c64ef474897a690eaadfb0dc571",
+    "Name": "Shoot",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a4f9466c7b4e4ca39100b309f84b9984", "Name": "Shoot" }
+    }, {
+        "Type": { "Id": "5a203f7e50a54334af6f35bf8fa0701f", "Name": "Gravity" },
+        "Properties": {
+            "gravity": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": -10
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "4877aebd4079748a17f940cbbee5d2e6", "Name": "Velocity2D" }
+    }, {
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.5,
+                    "y": -0.5,
+                    "width": 1,
+                    "height": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" }
+    }, {
+        "Type": { "Id": "44ad5544b1b1c11651e308e1f949fd69", "Name": "HitBoxOverlapResults" }
+    }]
+}]

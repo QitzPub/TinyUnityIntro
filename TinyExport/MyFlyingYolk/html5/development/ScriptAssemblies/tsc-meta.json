@@ -1,0 +1,364 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "AutoDestroySystem",
+            "QualifiedName": "game.AutoDestroySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/AutoDestroySystem.ts",
+                "Line": 8,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.TransformNode",
+                "ut.Core2D.TransformLocalPosition",
+                "game.AutoDestroy"
+            ]
+        },
+        {
+            "Name": "NumberTextRenderingSystem",
+            "QualifiedName": "game.NumberTextRenderingSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/NumberTextRenderingSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteBefore": [
+                "ut.HTML.RendererHTMLSwitchable"
+            ],
+            "RequiredComponents": [
+                "game.NumberTextRenderer"
+            ],
+            "OptionalComponents": [
+                "ut.Core2D.Sprite2DRenderer",
+                "ut.Core2D.TransformLocalPosition"
+            ]
+        },
+        {
+            "Name": "GameNumberTextValueSystem",
+            "QualifiedName": "game.GameNumberTextValueSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameConfigTextValueSystem.ts",
+                "Line": 8,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd",
+                "game.NumberTextRenderingSystem"
+            ],
+            "RequiredComponents": [
+                "game.NumberTextRenderer",
+                "game.GameConfigTextValue"
+            ]
+        },
+        {
+            "Name": "GameManagerSystem",
+            "QualifiedName": "game.GameManagerSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameManagerSystem.ts",
+                "Line": 5,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ]
+        },
+        {
+            "Name": "GameOverSystem",
+            "QualifiedName": "game.GameOverSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameOverSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.PlayerInput",
+                "ut.HitBox2D.HitBoxOverlapResults",
+                "ut.Core2D.Sprite2DSequencePlayer"
+            ]
+        },
+        {
+            "Name": "GravitySystem",
+            "QualifiedName": "game.GravitySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GravitySystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Gravity",
+                "game.Velocity"
+            ]
+        },
+        {
+            "Name": "GroundCollisionSystem",
+            "QualifiedName": "game.GroundCollisionSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GroundCollisionSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Velocity",
+                "ut.HitBox2D.HitBoxOverlapResults"
+            ]
+        },
+        {
+            "Name": "PlayerInputSystem",
+            "QualifiedName": "game.PlayerInputSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/PlayerInputSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.PlayerInput",
+                "game.Velocity"
+            ]
+        },
+        {
+            "Name": "ScrollerSystem",
+            "QualifiedName": "game.ScrollerSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/ScrollerSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.TransformLocalPosition",
+                "game.Scroller"
+            ]
+        },
+        {
+            "Name": "RepeatingBackgroundSystem",
+            "QualifiedName": "game.RepeatingBackgroundSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/RepeatingBackgroundSystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "game.ScrollerSystem"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.TransformLocalPosition",
+                "game.RepeatingBackground"
+            ]
+        },
+        {
+            "Name": "ScorePointSystem",
+            "QualifiedName": "game.ScorePointSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/ScorePointSystem.ts",
+                "Line": 7,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.ScorePoint"
+            ],
+            "OptionalComponents": [
+                "ut.Audio.AudioSource"
+            ]
+        },
+        {
+            "Name": "SpawnerSystem",
+            "QualifiedName": "game.SpawnerSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SpawnerSystem.ts",
+                "Line": 8,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart",
+                "game.RepeatingBackgroundSystem"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Spawner"
+            ]
+        },
+        {
+            "Name": "SkinSystem",
+            "QualifiedName": "game.SkinSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SkinSystem.ts",
+                "Line": 8,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart",
+                "game.SpawnerSystem"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.Sprite2DRenderer",
+                "ut.Core2D.Sprite2DSequence"
+            ]
+        },
+        {
+            "Name": "PipeSpacingSystem",
+            "QualifiedName": "game.PipeSpacingSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SpacingSystem.ts",
+                "Line": 7,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Spacing"
+            ],
+            "OptionalComponents": [
+                "ut.Core2D.TransformLocalPosition"
+            ]
+        },
+        {
+            "Name": "VelocitySystem",
+            "QualifiedName": "game.VelocitySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/VelocitySystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.PlayerInput",
+                "game.Velocity"
+            ]
+        }
+    ],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 50,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 151,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 762,
+            "Steps": 26
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 122,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 20,
+            "Steps": 15
+        }
+    ],
+    "SourceFiles": [
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/AudioService.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/AutoDestroySystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/NumberTextRenderingSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameConfigTextValueSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameManagerSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameOverSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GameService.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GravitySystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/GroundCollisionSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/PlayerInputSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/ScrollerSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/RepeatingBackgroundSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/ScorePointSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SpawnerSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SkinSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/SpacingSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MyFlyingYolk/Scripts/VelocitySystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "cbbc86255f6b8990ebf9470f488b3c19",
+    "GeneratedAt": "Thu Dec 06 2018 08:34:36 GMT+0900 (JST)"
+}

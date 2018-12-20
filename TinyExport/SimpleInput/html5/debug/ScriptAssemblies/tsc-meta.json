@@ -1,0 +1,112 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "GravitySystem",
+            "QualifiedName": "game.GravitySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/GravitySystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "game.Gravity",
+                "game.Velocity"
+            ]
+        },
+        {
+            "Name": "MovementSystem",
+            "QualifiedName": "game.MovementSystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/MovementSystem.ts",
+                "Line": 7,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.InputFence"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.RenderingFence"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.TransformLocalPosition",
+                "game.Movement",
+                "game.Velocity"
+            ]
+        },
+        {
+            "Name": "VelocitySystem",
+            "QualifiedName": "game.VelocitySystem",
+            "Description": "",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/VelocitySystem.ts",
+                "Line": 6,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ],
+            "RequiredComponents": [
+                "ut.Core2D.TransformLocalPosition",
+                "game.Velocity",
+                "game.Ground"
+            ]
+        }
+    ],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 46,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 154,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 656,
+            "Steps": 13
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 39,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 12,
+            "Steps": 3
+        }
+    ],
+    "SourceFiles": [
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/AudioService.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/GravitySystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/MovementSystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/MySimpleInput/Scripts/VelocitySystem.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "5545d64457047e5e4e8ed1b1082cdda2",
+    "GeneratedAt": "Thu Dec 06 2018 18:44:59 GMT+0900 (JST)"
+}

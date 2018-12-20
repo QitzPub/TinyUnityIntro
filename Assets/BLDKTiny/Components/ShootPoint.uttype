@@ -1,0 +1,22 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f96560fa51fc4f6f8dd6b31d7cbed743",
+    "Name": "ShootPoint",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e423883f1ecb4fdabf117b1512099d77",
+        "Name": "shoots",
+        "FieldType": { "Id": "2aa56ce081e14e8a93d276da72d813bc", "Name": "Int16" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f96560fa51fc4f6f8dd6b31d7cbed743", "Name": "ShootPoint" },
+        "Properties": {
+            "shoots": 3
+        }
+    }
+}]

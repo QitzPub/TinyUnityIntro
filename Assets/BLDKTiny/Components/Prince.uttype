@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bfa8d20f4ad14232b888c64477b9ee36",
+    "Name": "Prince",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "9f732045ee6046018096b92b3b122de9",
+        "Name": "isFlip",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "96c407839d5b46538360b0828206d4d8",
+        "Name": "state",
+        "FieldType": { "Id": "23cff9a36e7e42918f8a69c3de30bf71", "Name": "PrinceMoveState" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bfa8d20f4ad14232b888c64477b9ee36", "Name": "Prince" }
+    }
+}]

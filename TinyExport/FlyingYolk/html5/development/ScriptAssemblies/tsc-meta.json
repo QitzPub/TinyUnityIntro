@@ -1,0 +1,127 @@
+{
+    "Success": false,
+    "Diagnostics": [
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GravitySystem.ts",
+                "Line": 5,
+                "Character": 45
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GravitySystem.ts",
+                "Line": 13,
+                "Character": 46
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'velocity' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GravitySystem.ts",
+                "Line": 15,
+                "Character": 28
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'velocity' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GravitySystem.ts",
+                "Line": 19,
+                "Character": 20
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GroundCollisionSystem.ts",
+                "Line": 5,
+                "Character": 31
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GroundCollisionSystem.ts",
+                "Line": 13,
+                "Character": 43
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/GroundCollisionSystem.ts",
+                "Line": 26,
+                "Character": 53
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/PlayerInputSystem.ts",
+                "Line": 5,
+                "Character": 49
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Velocity' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/PlayerInputSystem.ts",
+                "Line": 27,
+                "Character": 44
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'velocity' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/TinySamples/FlyingYolk/Scripts/PlayerInputSystem.ts",
+                "Line": 29,
+                "Character": 20
+            }
+        }
+    ],
+    "Systems": [],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 46,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 144,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 740,
+            "Steps": 25
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 117,
+            "Steps": 2
+        }
+    ],
+    "SourceFiles": [],
+    "InputHash": "fd5124b4276e0f786564012fbf7523aa",
+    "GeneratedAt": "Thu Dec 06 2018 10:25:31 GMT+0900 (JST)"
+}

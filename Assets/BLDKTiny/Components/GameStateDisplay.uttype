@@ -1,0 +1,22 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "28a8e109bf3e4ad38dd3140aee99cbae",
+    "Name": "GameStateDisplay",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e5e4140863ff40b5912877af29905e52",
+        "Name": "gameStateStr",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "28a8e109bf3e4ad38dd3140aee99cbae", "Name": "GameStateDisplay" },
+        "Properties": {
+            "gameStateStr": "NotInitialized"
+        }
+    }
+}]

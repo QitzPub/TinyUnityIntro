@@ -1,0 +1,127 @@
+{
+    "Success": false,
+    "Diagnostics": [
+        {
+            "Category": 1,
+            "Message": "Property 'Thing' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 1,
+                "Character": 6
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "';' expected.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 1,
+                "Character": 11
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Cannot find name 'Int32'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 2,
+                "Character": 13
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Cannot find name 'Float32'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 3,
+                "Character": 11
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Cannot find name 'Float32'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 4,
+                "Character": 12
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'Thing' does not exist on type 'typeof game'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 18,
+                "Character": 43
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'radius' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 19,
+                "Character": 23
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'time' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 20,
+                "Character": 23
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'speed' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 22,
+                "Character": 49
+            }
+        },
+        {
+            "Category": 1,
+            "Message": "Property 'time' does not exist on type '{}'.",
+            "Source": {
+                "File": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/Assets/Tiny1/Scripts/NewSystem.ts",
+                "Line": 35,
+                "Character": 15
+            }
+        }
+    ],
+    "Systems": [],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 39,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 178,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 747,
+            "Steps": 11
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 35,
+            "Steps": 2
+        }
+    ],
+    "SourceFiles": [],
+    "InputHash": "1d25286ca05ea5b00c665005dce38c00",
+    "GeneratedAt": "Wed Dec 05 2018 18:34:33 GMT+0900 (JST)"
+}

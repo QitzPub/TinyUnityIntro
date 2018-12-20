@@ -1,0 +1,100 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/UILayoutDemo/html5/development/bin/runtime.js",
+                "Size": 5505205,
+                "CompressedSize": 693164
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 8234,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/TinySamples/UILayoutDemo/Textures/UIpack.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "8312e38bd351d45f28e5ded1593fd06a", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/UIpack.png",
+                    "Size": 1266920,
+                    "CompressedSize": 916548,
+                    "Object": { "$TypeId": 10, "Guid": "8312e38bd351d45f28e5ded1593fd06a", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/UILayoutDemo/html5/development/bin/entities.js",
+                "Size": 25928,
+                "CompressedSize": 4456
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "Scene",
+                    "Size": 25848,
+                    "CompressedSize": 4370
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/UILayoutDemo/html5/development/bin/bindings.js",
+                "Size": 75208,
+                "CompressedSize": 5781
+            }
+        }, {
+            "Item": {
+                "Name": "Linked Code Files",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/TinyExport/UILayoutDemo/html5/development/ScriptAssemblies/tsc-emit.js",
+                    "Size": 3091,
+                    "CompressedSize": 919
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/UILayoutDemo/html5/development/bin/main.js",
+                "Size": 2474,
+                "CompressedSize": 809
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/UILayoutDemo/html5/development/bin/wsclient.js",
+                "Size": 9391,
+                "CompressedSize": 2619
+            }
+        }]
+    }]
+}

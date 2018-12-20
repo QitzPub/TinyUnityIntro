@@ -1,0 +1,202 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/FlyingYolk/html5/development/bin/runtime.js",
+                "Size": 5505205,
+                "CompressedSize": 693164
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 32093,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/TinySamples/FlyingYolk/Sounds/sfx_wing.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "7a6f17b3e2d4cce429c1514d80e73b63", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sfx_wing.wav",
+                    "Size": 39828,
+                    "CompressedSize": 27142,
+                    "Object": { "$TypeId": 10, "Guid": "7a6f17b3e2d4cce429c1514d80e73b63", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySamples/FlyingYolk/Sounds/sfx_point.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "a96602b453ed021488d612789574c7c3", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sfx_point.wav",
+                    "Size": 236608,
+                    "CompressedSize": 144681,
+                    "Object": { "$TypeId": 10, "Guid": "a96602b453ed021488d612789574c7c3", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/TinySamples/FlyingYolk/Sounds/sfx_hit.wav",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "559308c7775a0a24690705ea613f018f", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sfx_hit.wav",
+                    "Size": 128744,
+                    "CompressedSize": 85647,
+                    "Object": { "$TypeId": 10, "Guid": "559308c7775a0a24690705ea613f018f", "FileId": 8300000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "sactx-256x256-Uncompressed-Day-17f6e698",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sactx-256x256-Uncompressed-Day-17f6e698.png",
+                    "Size": 70676,
+                    "CompressedSize": 53539,
+                    "Object": { "$TypeId": 10, "Guid": "00000000000000000000000000000000", "FileId": 2, "Type": 0 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "sactx-256x256-Uncompressed-Night-86b0e5d1",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sactx-256x256-Uncompressed-Night-86b0e5d1.png",
+                    "Size": 84736,
+                    "CompressedSize": 64183,
+                    "Object": { "$TypeId": 10, "Guid": "00000000000000000000000000000000", "FileId": 2, "Type": 0 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "sactx-256x256-Uncompressed-Game-bdc4f4bf",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/sactx-256x256-Uncompressed-Game-bdc4f4bf.png",
+                    "Size": 15504,
+                    "CompressedSize": 11672,
+                    "Object": { "$TypeId": 10, "Guid": "00000000000000000000000000000000", "FileId": 2, "Type": 0 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/FlyingYolk/html5/development/bin/entities.js",
+                "Size": 48056,
+                "CompressedSize": 5802
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "Bootstrap",
+                    "Size": 2712,
+                    "CompressedSize": 790
+                }
+            }, {
+                "Item": {
+                    "Name": "GameOver",
+                    "Size": 14599,
+                    "CompressedSize": 2307
+                }
+            }, {
+                "Item": {
+                    "Name": "GameScene",
+                    "Size": 14212,
+                    "CompressedSize": 2528
+                }
+            }, {
+                "Item": {
+                    "Name": "Pipes",
+                    "Size": 5613,
+                    "CompressedSize": 1237
+                }
+            }, {
+                "Item": {
+                    "Name": "Score",
+                    "Size": 6151,
+                    "CompressedSize": 1197
+                }
+            }, {
+                "Item": {
+                    "Name": "Tutorial",
+                    "Size": 4696,
+                    "CompressedSize": 985
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/FlyingYolk/html5/development/bin/bindings.js",
+                "Size": 146586,
+                "CompressedSize": 12863
+            }
+        }, {
+            "Item": {
+                "Name": "Linked Code Files",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment/TinyExport/FlyingYolk/html5/development/ScriptAssemblies/tsc-emit.js",
+                    "Size": 41476,
+                    "CompressedSize": 7526
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/FlyingYolk/html5/development/bin/main.js",
+                "Size": 4718,
+                "CompressedSize": 1169
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/FlyingYolk/html5/development/bin/wsclient.js",
+                "Size": 9391,
+                "CompressedSize": 2619
+            }
+        }]
+    }]
+}

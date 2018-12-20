@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f097e5d89b954389a86ea44537077346",
+    "Name": "GroundHitBox",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "f097e5d89b954389a86ea44537077346", "Name": "GroundHitBox" }
+    }
+}]

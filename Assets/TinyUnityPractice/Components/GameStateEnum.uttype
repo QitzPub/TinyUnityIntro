@@ -1,0 +1,43 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "4b6ffe9801c7428b9066a0a2a50326ba",
+    "Name": "GameStateEnum",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "12e1b1ed5aa84cc585b6b580d39bbd02",
+        "Name": "NotInitialized",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a918e296cf7e4584800ed3c6da446040",
+        "Name": "Normal",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "13e021a5a2744a68b7ff4a3cc1c18a99",
+        "Name": "Stretching",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "dce1328348cf4acfb320ae74d8a5026d",
+        "Name": "Moving",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "4b6ffe9801c7428b9066a0a2a50326ba", "Name": "GameStateEnum" },
+        "Properties": {
+            "Normal": 1,
+            "Stretching": 2,
+            "Moving": 3
+        }
+    }
+}]

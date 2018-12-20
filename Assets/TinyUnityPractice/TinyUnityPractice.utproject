@@ -1,0 +1,97 @@
+﻿[{
+    "$TypeId": 1,
+    "Id": "9deec73ed53848a5b1af9cef156a12d7",
+    "Name": "BLDKTiny",
+    "ExportFlags": 0,
+    "SerializedVersion": 6,
+    "Settings": {
+        "CanvasWidth": 1080,
+        "CanvasHeight": 1920,
+        "EmbedAssets": true,
+        "CanvasAutoResize": true,
+        "RenderMode": 1,
+        "DefaultTextureSettings": {
+            "$TypeId": 2,
+            "Embedded": true,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        },
+        "DefaultAudioClipSettings": {
+            "$TypeId": 3,
+            "Embedded": true
+        },
+        "DefaultAnimationClipSettings": {
+            "$TypeId": 4,
+            "Embedded": false
+        },
+        "LocalWSServerPort": 17700,
+        "LocalHTTPServerPort": 19050,
+        "SingleFileHtml": false,
+        "MemorySize": 16,
+        "IncludeWebPDecompressor": false,
+        "RunBabel": true,
+        "MinifyJavaScript": true,
+        "LinkToSource": true,
+        "SymbolsInReleaseBuild": false
+    },
+    "Module": { "Id": "97d1d4d0dd9a4b0cb527f8e7b0aadb68", "Name": "Main" },
+    "Configuration": { "$TypeId": 9, "Id": "0e84cbf3e13b450d994ac6e46865b62b", "Name": "Configuration" }
+},
+{
+    "$TypeId": 2,
+    "Id": "97d1d4d0dd9a4b0cb527f8e7b0aadb68",
+    "Name": "Main",
+    "SerializedVersion": 1,
+    "ExportFlags": 0,
+    "Namespace": "game",
+    "Options": 4,
+    "Dependencies": [
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" },
+        { "Id": "29e5e02a3a0442beb9e6828c78a7ff91", "Name": "UTiny.EntityGroup" },
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "eae58004250dcd15a6c834b07677ca28", "Name": "UTiny.HTML" },
+        { "Id": "49644c1065ebcfd98885bfe5e77c8fc1", "Name": "UTiny.Image2D" },
+        { "Id": "8f3245ba92302e53e51e43514424d568", "Name": "UTiny.ImageLoadingHTML" },
+        { "Id": "229e8d5fce9cf6b511ca82c89f1b58eb", "Name": "UTiny.Sprite2D" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "97d1d4d0dd9a4b0cb527f8e7b0aadb68", "Name": "Main" },
+        { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
+        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" },
+        { "Id": "251df5ef6819533f94e1cbf3181f722e", "Name": "UTiny.Audio" },
+        { "Id": "259902b84b3ed0f7213a1b5e37040709", "Name": "UTiny.Physics2D" },
+        { "Id": "36f73ad23c8a63c53fa510f0621474f5", "Name": "UTiny.HitBox2D" },
+        { "Id": "0bc66cc14cafcceaaebf78d21c72cede", "Name": "UTiny.Particles" }
+    ],
+    "StartupEntityGroup": { "Id": "eca28021d32e4271b03d6aa47cee59e9", "Name": "NewEntityGroup" }
+},
+{
+    "$TypeId": 5,
+    "Id": "0e84cbf3e13b450d994ac6e46865b62b",
+    "Name": "Configuration",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "575fe161bc06950c954480d04c70c9ab", "Name": "DisplayInfo" },
+        "Properties": {
+            "width": 1080,
+            "height": 1920,
+            "autoSizeToFrame": true,
+            "renderMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "c592d331c582f4083ec19af9e2d06b6d", "Name": "RenderMode" },
+                "Id": "28a2eb67a0b8c9846aca4711b541ab6e",
+                "Name": "Canvas",
+                "Value": 1
+            }
+        }
+    }, {
+        "Type": { "Id": "e816e7b93a13b9e5ddf993486ca79278", "Name": "AudioConfig" }
+    }, {
+        "Type": { "Id": "38283a6cef9faa790b5c9936163d59e3", "Name": "Physics2DConfig" }
+    }]
+}]

@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7eda93dcfba7468fb36008ba273f1c0d",
+    "Name": "ShootNumberDisplay",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "7eda93dcfba7468fb36008ba273f1c0d", "Name": "ShootNumberDisplay" }
+    }
+}]

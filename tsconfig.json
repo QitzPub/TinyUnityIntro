@@ -2,13 +2,13 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "outFile": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment3/TinyExport/BLDKTiny/html5/development/ScriptAssemblies/tsc-emit.js",
+        "outFile": "/Users/kaifu/MyUnityProject/TinyUnityExperiment/TinyUnityExperiment3/TinyExport/TinyUnityPractice/html5/development/ScriptAssemblies/tsc-emit.js",
         "sourceMap": true,
         "target": "ES5"
     },
     "compileOnSave": true,
     "include": [
-        "Assets/BLDKTiny/**/*.ts",
+        "Assets/TinyUnityPractice/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.Core2D/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.Math/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.13.2-preview/Runtime/Modules/UTiny.Core/**/*.ts",
@@ -36,7 +36,7 @@
     ],
     "exclude": [],
     "files": [
-        "TinyExport/BLDKTiny/html5/development/bind-generated.d.ts",
+        "TinyExport/TinyUnityPractice/html5/development/bind-generated.d.ts",
         "Tiny/Dist/runtimedll/RuntimeFull.d.ts"
     ]
 }

@@ -1,0 +1,35 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0b49c1a8cf574abfaaf19f5d17b5a5b1",
+    "Name": "PrinceSpawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d033ddcf6c2f4b87a1530a997d3bc989",
+        "Name": "interval",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fc6104782b50457bbcb7c5748d9cdc57",
+        "Name": "princes",
+        "FieldType": { "Id": "2aa56ce081e14e8a93d276da72d813bc", "Name": "Int16" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b6e5ac9c03ab4e239f715c3f29d1e375",
+        "Name": "time",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0b49c1a8cf574abfaaf19f5d17b5a5b1", "Name": "PrinceSpawner" },
+        "Properties": {
+            "interval": 1,
+            "princes": 8
+        }
+    }
+}]

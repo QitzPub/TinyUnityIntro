@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a4f9466c7b4e4ca39100b309f84b9984",
+    "Name": "Shoot",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "a4f9466c7b4e4ca39100b309f84b9984", "Name": "Shoot" }
+    }
+}]

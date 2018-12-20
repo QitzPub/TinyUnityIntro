@@ -1,0 +1,36 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "23cff9a36e7e42918f8a69c3de30bf71",
+    "Name": "PrinceMoveState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "de24e1ef7a564cc281534d876c76c9d0",
+        "Name": "Flying",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b76a16f6ff454e999dc1de788af93230",
+        "Name": "Grounding",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9688b3e9ec7f4939860ec9917d863961",
+        "Name": "Climbing",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "23cff9a36e7e42918f8a69c3de30bf71", "Name": "PrinceMoveState" },
+        "Properties": {
+            "Grounding": 1,
+            "Climbing": 2
+        }
+    }
+}]
